@@ -1,0 +1,2 @@
+compile - javac -cp "lib/*;." -d out App.java
+execute - java --module-path "lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base -cp "out;.;lib/*" App
